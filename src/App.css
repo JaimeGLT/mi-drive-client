@@ -1,0 +1,51 @@
+@import "tailwindcss";
+/* Layout para páginas de autenticación */
+.auth-layout {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+/* Layout principal de la aplicación */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Container para sidebar y contenido principal */
+.main-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Sidebar fija a la izquierda */
+.sidebar {
+  width: 250px;
+  min-width: 250px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #e9ecef;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+/* Contenido principal */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Fixes para el NavBar responsive */
+.navbar {
+  z-index: 1000;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* Estilos responsivos */
+
+
